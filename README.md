@@ -3,11 +3,13 @@ High Fidelity Energy Storage Dispatch in Production Costing Model
 
 This code was co-developed by Dr. Trishna Das and Dr. Venkat Krishnan, during our research work at Iowa State University. We worked under the guidance of professor James D. McCalley. Dr. Venkat Krishnan currently works at National Renewable Energy Laboratory.
 
-This is a production costing (PC) program integrated with energy storage dispatch model. The master branch contains a 2-day (48 hour) production costing simulation model; and the other branches contain various versions of this code which can perform yearly simulation (i.e., run 182 2-day simulation sequentially) and 2-day PC simulation with 5-min economic dispatch. One of the branhces also contain a framework which can be used to perform optimal allocation of energy storage in a grid.
+This is a production costing (PC) program integrated with energy storage dispatch model. The master branch contains the codes and data for performing a 2-day (48 hour) production costing simulation. The master branch also contains many folders with various versions of the basic PC code, which can be used to perform many other analysis. They include a folder for codes and relevant data which can perform yearly simulation (i.e., run 182 2-day simulation sequentially) and another folder for 2-day PC simulation with 5-min economic dispatch. One of the folders also contains codes that create a framework which can be used to perform optimal allocation of energy storage in a grid.
+
+The repository also contains a PPT file, which will walk through the various aspects of the code, the data required, the I/O aspects and the way one could use it.
+
 
 The basic PC code has come down through many students to us, upon which the high-fidelity energy storage dispatch model was developed and used for many analysis. The model development and the consequent analysis studies are all documented in the various publications below. 
 
-The repository also contains a PPT file, which will walk through the various aspects of the code, the data required, the I/O aspects and the way one could use it.
 
 References:
 
