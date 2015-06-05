@@ -1,16 +1,15 @@
 # HiFi_ESD_PC
 High Fidelity Energy Storage Dispatch in Production Costing Model
 
-This MATLAB code was co-developed by Dr. Trishna Das and Dr. Venkat Krishnan (http://www.ece.iastate.edu/~vkrish/index.html), during our research work at Iowa State University. We worked under the guidance of professor James D. McCalley. Dr. Venkat Krishnan currently works at National Renewable Energy Laboratory (http://www.nrel.gov/analysis/staff/venkat_krishnan.html).
+This MATLAB code was co-developed by Dr. Trishna Das and Dr. Venkat Krishnan (http://www.ece.iastate.edu/~vkrish/index.html), during our research work at Iowa State University with professor James D. McCalley. Dr. Venkat Krishnan currently works at National Renewable Energy Laboratory (http://www.nrel.gov/analysis/staff/venkat_krishnan.html).
 
-This is a production costing (PC) program integrated with energy storage dispatch model. The master branch contains the codes and data for performing A 2-DAY (48 HOUR) PRODUCTION COSTING SIMULATION. The master branch also contains many folders with various versions of the basic PC code, which can be used to perform many other analysis. They include:
+This is a production costing (PC) program integrated with energy storage dispatch model. The master branch contains the codes and data for performing A 2-DAY (48 HOUR) PRODUCTION COSTING SIMULATION. The optimization problem is formulated as a network flow optimization problem, and the data files (nodesinitial.txt and arcsinitial.txt) model the various nodes and arcs of IEEE 24 bus modified RTS system. The user can feed any other system data in a similar format to the PC model. The master branch also contains many folders with various versions of the basic PC code, which can be used to perform many other analysis. They include:
 
 1. A folder for codes and relevant data which can perform YEARLY SIMULATION (i.e., run 182 2-day simulation sequentially) and
 2. Another folder for 2-DAY PC SIMULATION WITH 5-MIN ECONOMIC DISPATCH. 
 3. One of the folders also contains codes that create a framework which can be used to perform OPTIMAL ALLOCATION OF ENERGY STORAGE in a grid.
 
 The repository also contains a PPT file (PC_Demonstration_Manual.pptx), which will walk through the various aspects of the code, the data required, the I/O aspects and the way one could use it.
-
 
 The basic MATLAB code for PC has come down through many students to us, upon which the high-fidelity energy storage dispatch model was developed and used for many analysis. Tomlab optimization environment is used to perform the CPLEX based MILP (Unit Committment) and LP (Economic Dispatch) optimization in Matlab. The model development and the consequent analysis studies are all documented in the various publications below. 
 
