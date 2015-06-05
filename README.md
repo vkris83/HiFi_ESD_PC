@@ -1,7 +1,7 @@
 # HiFi_ESD_PC
 High Fidelity Energy Storage Dispatch in Production Costing Model
 
-This MATLAB code was co-developed by Dr. Trishna Das and Dr. Venkat Krishnan (http://www.ece.iastate.edu/~vkrish/index.html), during our research work at Iowa State University with professor James D. McCalley. Dr. Venkat Krishnan currently works at National Renewable Energy Laboratory (http://www.nrel.gov/analysis/staff/venkat_krishnan.html).
+This MATLAB based tool was co-developed by Dr. Trishna Das and Dr. Venkat Krishnan (http://www.ece.iastate.edu/~vkrish/index.html), during our research work at Iowa State University with professor James D. McCalley. Dr. Venkat Krishnan currently works at National Renewable Energy Laboratory (http://www.nrel.gov/analysis/staff/venkat_krishnan.html).
 
 This is a production costing (PC) program integrated with energy storage dispatch model. The master branch contains the codes and data for performing A 2-DAY (48 HOUR) PRODUCTION COSTING SIMULATION. The optimization problem is formulated as a network flow optimization problem, and the data files (nodesinitial.txt and arcsinitial.txt) model the various nodes and arcs of IEEE 24 bus modified RTS system. The user can feed any other system data in a similar format to the PC model. The master branch also contains many folders with various versions of the basic PC code, which can be used to perform many other analysis. They include:
 
